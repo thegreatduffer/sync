@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+RewriteCond %{HTTP_COOKIE} ALPHA_USER [NC]
+RewriteRule ^ index.html [L]
+RewriteRule ^ index.html [L]
